@@ -67,7 +67,6 @@ if [[ ! -f "${CACHE_DIR}/bin/nginx" ]]; then
     --with-http_spdy_module \
     --with-http_stub_status_module \
     --with-http_gzip_static_module \
-    --with-http_proxy_module \
     --with-file-aio \
     --with-zlib=../zlib-${ZLIB_VERSION} \
     --with-pcre \
